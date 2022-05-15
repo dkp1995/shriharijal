@@ -1,0 +1,55 @@
+.bottom_menu{
+
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    bottom: 0;
+    left: 0;
+    right:0;
+    z-index: 100;
+    border-top: 1px solid grey;
+    background-color: white;
+    
+   
+}
+/* for desktop */
+@media (min-width: 600px) {
+    .bottom_menu {
+      
+        
+        flex-direction: column;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        justify-content: space-evenly;
+        padding: 20px;
+        width: 20px;
+        padding-right: 40px;
+ 
+    }
+
+    .content{
+         margin-left: 100px;
+    }
+  }
+
+
+
+.link{
+
+    padding: 15px;
+    text-decoration: none;
+    width: 20px;
+    font-size: 20px;
+    color: black;
+    
+    
+}
+
+.link.active{
+     
+   
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+}

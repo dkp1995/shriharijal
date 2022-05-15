@@ -1,0 +1,129 @@
+.main{
+
+    padding: 5px;
+}
+
+.overviewbox{
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-evenly;
+}
+
+.overviewcard{
+
+    box-shadow: 2px 2px 2px lightgrey;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.linkbox{
+   
+    margin-bottom: 10px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.link2{
+    margin-left: 20px;
+    font-weight: 700;
+    flex: 1;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    
+ 
+    
+}
+.link2.active{
+     
+   
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+}
+
+/* detailsreport */
+
+.filterbox{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.search{
+    width: 96%;
+}
+
+.datebox{
+
+    display: flex;
+    column-gap: 10px;
+    
+}
+.searchbtn{
+
+    width: 50%;
+    padding: 10px;
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+    font-size: 18px;
+    text-align: center;
+}
+.table-wrapper{
+
+    margin-top: 20px;
+}
+
+.total{
+
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+    font-weight: 600;
+}
+
+@media(min-width: 600px){
+.linkbox{
+
+    width: 42.4%;
+}
+.overviewbox{
+
+    width: 50%;
+    flex-wrap: wrap;
+}
+.overviewcard{
+    flex: none;
+}
+    
+.filterbox{
+
+  margin-left: 20px;
+    
+}
+
+.table-wrapper{
+
+    margin-left: 20px;
+}
+
+.search{
+    width: 40%;
+}
+
+.datebox{
+    width: 47.2%;
+}
+
+.searchbtn{
+
+    width: 20%;
+  
+}
+
+}

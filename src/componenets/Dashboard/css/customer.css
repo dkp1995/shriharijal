@@ -1,0 +1,81 @@
+.main{
+
+    padding: 5px;
+}
+
+.tablink{
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px 6px 12px;
+}
+.tablinklist{
+
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 10px 10px 6px 12px;
+}
+
+.tablinkbox{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tablink.active{
+     
+   
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+    
+}
+
+.tablinklist.active{
+
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+    
+}
+
+#choose{
+
+    width: 96%;
+    
+}
+
+
+
+
+@media(min-width: 600px){
+    #choose{
+
+        width: 42.5%;
+        
+    }
+    .udpatefield{
+
+        width: 47.6%;
+    }
+
+    .tablinkbox{
+
+        width: 40%;
+    }
+}
+
+
+.udpatefield{
+
+    display: flex;
+    column-gap: 10px;
+    
+}
+
+.customtablelist{
+
+    margin-left: 0px !important;
+    margin-bottom: 20px;
+}
+

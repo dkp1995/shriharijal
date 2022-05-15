@@ -1,0 +1,59 @@
+.main{ 
+
+    padding : 10px
+}
+
+
+
+.table-wrapper {
+
+    overflow-y: scroll;
+    overflow-x:scroll;
+    height: fit-content;
+    max-height: 75vh;
+ 
+}
+
+
+table {
+    
+    min-width: max-content;
+    border-collapse: separate;
+    border-spacing: 0px;    
+    
+}
+
+
+
+table th{
+    position: sticky; 
+    top: 0px;
+    
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+    
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black;
+    
+} 
+
+
+
+table th, table td {
+    
+    padding: 5px;
+
+    
+}
+
+table td {
+    text-align: left;
+    
+    font-size: 15px;
+    border: 1px solid rgb(177, 177, 177);
+    padding-left: 5px;
+    
+}

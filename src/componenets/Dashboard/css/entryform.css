@@ -1,0 +1,74 @@
+.main{
+    padding: 5px;
+    margin-bottom: 70px;
+}   
+
+form{
+
+    
+}
+
+label{
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    }
+
+input, select{
+
+    width: 90%;
+    background: #fff;
+    border: 1px solid #c6c7cc;
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    
+
+    } 
+
+.calculate {
+
+    display: block;
+    width: 60%;
+    background-color: #133b5c;
+    color: rgb(247, 247, 247);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+@media(min-width: 600px){
+    input, select{
+
+        width: 40%;
+    }
+    .calculate{
+
+        width: 20%;
+    }
+    .suggestionlist{
+        
+        width: 20% !important;
+
+    }
+}
+
+.suggestionlist{
+
+    background-color: rgb(244, 238, 238);
+    width: 90%;
+    margin-top: -10px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+    
+}
+.suggestionlist:hover{
+
+    background-color: rgb(209, 202, 202);
+}
